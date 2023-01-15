@@ -1,0 +1,287 @@
+/* Google Font-Work Sans */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital@0;1&display=swap');
+/* font */
+body{
+  font-family: Work Sans;
+}
+/* -nav-bar-style-section 
+-------------------------*/
+.header-body-color{
+    background: rgba(255, 144, 14, 0.1);
+}
+.navbar-div-class{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.G3-Architects-text-h1{
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+    color: #131313;
+    margin-left: 228px;
+    margin-top: 50px;
+}
+ul{
+     list-style-type: none;
+     display: flex;
+     margin-right: 240px;
+     margin-top: 63px;
+     font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    
+}
+ul li{
+    padding: 1em;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+    font-weight: 500;
+    text-align: center;
+
+}
+ul a{
+    text-decoration: none;
+    color: #424242;
+}
+/*----------- banar-section-style
+-----------------------------*/
+.first-bannar-photo{
+margin-bottom: 45px;
+
+
+}
+.banar-div-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.BrandNew-text, .BrandNew-Gtext{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    color: #131313;
+}
+.BrandNew-Gtext{
+    margin-top: -35px;
+}
+.banar-div-section p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: -15px;
+}
+/* button style(1) ---
+---------------------*/
+.btn-style{
+    width: 180px;
+    height: 64px;
+    background: #FF900E;
+    border-radius: 8px;
+    border: 0px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-top: 32px;
+    margin-bottom: 50px;
+}
+/* Quick list of Our Features-style */
+.team-photo{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+    
+}
+.teamPhto-Quick-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 85px;
+}
+.teamPhto-Quick-section p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    
+
+}
+.quick-text-section{
+    margin-left: 73px;
+}
+/* Features you will love & enjoy-section-style
+------------------------------------------------ */
+.Features-section-parent{
+        display: flex;    
+}
+.boder-F{
+    border-left: 5px solid #FF900E;
+    padding: 0.01em 20px;
+    color: #131313;
+}
+.ptag-style-class{
+    margin-top: 8px;
+    margin-bottom: 30px;
+}
+.Features-textBox{
+    padding: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    /* border: 1px solid; 
+    box-shadow: 5px 10px #eeeeee; */
+}
+.Features-textBox h3{
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+}
+.Features-textBox p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+.features-section-blogs-text{
+    flex-direction: column;
+    margin-left: 240px;
+    margin-top: 130px;
+}
+.features-section-blogs-text h1{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+.architect-photo-WoMan{
+    margin-right: 240px;
+    margin-top: 130px;
+    margin-left: 146px;
+}
+.architect-photo-WoMan{
+    position: relative;
+}
+/* button-style */
+#btn-experience{
+    width: 342px;
+    height: 200px;
+    margin-top: -640px;
+    color: #FFFFFF;
+    background: #FF900E;
+    border-radius: 8px;
+    border: 0em;
+    margin-left: -85px;
+}
+#btn-experience:hover{
+    background-color: rgba(255, 144, 14, 0.1);
+    color: #000000;
+}
+#btn-experience h1{
+    font-weight: 700;
+    font-size: 65px;
+}
+#span-btn{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 25px;
+}
+/* Some Facts-section-tyle */
+.some-facts-text-sextion{
+    margin-left: 240px;
+}
+.some-facts-text-sextion h1{
+    font-weight: 700;
+    font-size: 45px; 
+    color: #131313;  
+}
+.some-facts-text-sextion p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+.Some-Facts-icon-section{
+    /* display: grid;
+    grid-template-columns: repeat(4,1fr); */
+    display: flex;
+    justify-content: center;
+    gap: 124px;
+    margin-top: 100px;
+}
+.FACTS-BOX{
+    width: 241.83px;
+    height: 241.83px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* * Some Facts-text-
+----------------------------------*/ 
+.FACTS-BOX img{
+    margin-top: 45px;
+}
+.FACTS-BOX:hover{
+    background-color: rgba(255, 144, 14, 0.1);
+    color: #000000;
+}
+.FACTS-BOX h1{
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+    margin-top: 8px;
+}
+.FACTS-BOX p{
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+    margin-top: -20px;
+}
+/* Our Sponspors-section-style
+------------------------------
+--------------------------- */
+.our-text{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+.sponspors-text-section p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+.sponspors-text-section{
+    text-align: center;
+    margin-top: 180px;
+}
+.Sponspors-icons{
+    text-align: center;
+    background: #ffffff;   
+}
+.Sponspors-icons img{
+    padding: 50px;
+    mix-blend-mode: luminosity; 
+}
+/* --------------------------- */
+/* footer-section-style--------------- */
+footer{
+    background: #FFF4E7;
+    border-radius: 8px;
+    margin-top: 130px;
+    margin-left: 240px;
+    margin-right: 240px;
+    margin-bottom: 216px;  
+}
+footer div > p{
+    text-align: center;
+    padding: 39px 410px;
+    font-weight: 400;
+    font-size: 17px;
+    color: #424242;
+}
+/* <<<<<<<<<<<<<<<<<CSS Media Queries>>>>>>>>>>>>>>>>>>>>>>>> */
+                    /* breakpoints */
+/* <<<<<<<<<<<<<<<<<CSS Media Queries>>>>>>>>>>>>>>>>>>>>>>>> */
