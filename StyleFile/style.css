@@ -215,13 +215,12 @@ margin-bottom: 45px;
     align-items: center;
     justify-content: center;
 }
-/* * Some Facts-text-
-----------------------------------*/ 
+/* Some Facts-text- */
 .FACTS-BOX img{
     margin-top: 45px;
 }
 .FACTS-BOX:hover{
-    background-color: rgba(255, 144, 14, 0.1);
+    background-color: rgba(83, 206, 234, 0.1);
     color: #000000;
 }
 .FACTS-BOX h1{
@@ -236,9 +235,7 @@ margin-bottom: 45px;
     color: #727272;
     margin-top: -20px;
 }
-/* Our Sponspors-section-style
-------------------------------
---------------------------- */
+/* Our Sponspors-section-style */
 .our-text{
     font-weight: 700;
     font-size: 45px;
@@ -261,10 +258,9 @@ margin-bottom: 45px;
     padding: 50px;
     mix-blend-mode: luminosity; 
 }
-/* --------------------------- */
-/* footer-section-style--------------- */
+/* footer-section-style */
 footer{
-    background: #FFF4E7;
+    background: #7cd8ff;
     border-radius: 8px;
     margin-top: 130px;
     margin-left: 240px;
