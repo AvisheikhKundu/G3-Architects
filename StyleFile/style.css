@@ -4,8 +4,7 @@
 body{
   font-family: Work Sans;
 }
-/* -nav-bar-style-section 
--------------------------*/
+/* nav-bar-style-section */
 .header-body-color{
     background: rgba(255, 144, 14, 0.1);
 }
@@ -45,8 +44,7 @@ ul a{
     text-decoration: none;
     color: #424242;
 }
-/*----------- banar-section-style
------------------------------*/
+/* banar-section-style */
 .first-bannar-photo{
 margin-bottom: 45px;
 
@@ -75,12 +73,11 @@ margin-bottom: 45px;
     font-size: 16px;
     margin-top: -15px;
 }
-/* button style(1) ---
----------------------*/
+/* button style(1) */
 .btn-style{
     width: 180px;
     height: 64px;
-    background: #FF900E;
+    background: #0e4bda;
     border-radius: 8px;
     border: 0px;
     font-weight: 600;
@@ -112,13 +109,12 @@ margin-bottom: 45px;
 .quick-text-section{
     margin-left: 73px;
 }
-/* Features you will love & enjoy-section-style
------------------------------------------------- */
+/* Features you will love & enjoy-section-style */
 .Features-section-parent{
         display: flex;    
 }
 .boder-F{
-    border-left: 5px solid #FF900E;
+    border-left: 5px solid blue;
     padding: 0.01em 20px;
     color: #131313;
 }
@@ -131,8 +127,8 @@ margin-bottom: 45px;
     background: #FFFFFF;
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
     border-radius: 8px;
-    /* border: 1px solid; 
-    box-shadow: 5px 10px #eeeeee; */
+    /* border: 1px solid;  */
+    /* box-shadow: 5px 10px #eeeeee; */
 }
 .Features-textBox h3{
     font-weight: 600;
@@ -168,13 +164,13 @@ margin-bottom: 45px;
     height: 200px;
     margin-top: -640px;
     color: #FFFFFF;
-    background: #FF900E;
+    background: #251bd8;
     border-radius: 8px;
     border: 0em;
     margin-left: -85px;
 }
 #btn-experience:hover{
-    background-color: rgba(255, 144, 14, 0.1);
+    background-color: rgba(35, 97, 229, 0.1);
     color: #000000;
 }
 #btn-experience h1{
@@ -212,7 +208,7 @@ margin-bottom: 45px;
 .FACTS-BOX{
     width: 241.83px;
     height: 241.83px;
-    border: 1px solid #FF900E;
+    border: 1px solid #194eca;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
@@ -282,6 +278,6 @@ footer div > p{
     font-size: 17px;
     color: #424242;
 }
-/* <<<<<<<<<<<<<<<<<CSS Media Queries>>>>>>>>>>>>>>>>>>>>>>>> */
-                    /* breakpoints */
-/* <<<<<<<<<<<<<<<<<CSS Media Queries>>>>>>>>>>>>>>>>>>>>>>>> */
+/*CSS Media Queries*/
+ /* breakpoints */
+
